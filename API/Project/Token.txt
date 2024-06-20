@@ -1,0 +1,9 @@
+Token GITHUB project
+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
+
+https://api.github.com/user/emails
+
+{
+"title": "TestKey",
+"key":"ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKcssqNmc8GaAUS8RJ+7vG114hZuGAEmVW5mM9nH2+z2 gmx\\002om0744@WIN-DC4E8KJEBAU"
+}
