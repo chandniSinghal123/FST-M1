@@ -1,20 +1,17 @@
-package stepDefinition;
-
-import org.junit.runner.RunWith;
+package testRunner;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
-
+import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/java/features",
-        glue = { "stepDefinitions.Activity5" },
-        tags="@activity5",
-        plugin={"pretty"},
-        plugin = {"html: test-reports"},
+        features = "Features",
+        glue = {"stepDefinitions"},
+        tags = "@SimpleAlert",
+        //tags = "@Activity5",
+        //plugin = {"pretty"},
+        //plugin = {"html: test-reports"},
         plugin = {"json: test-reports/json-report.json"},
         monochrome = true
 )
 
-public class ActivitiesRunner {
-    // empty
-}
+public class ActivitiesRunner {}
