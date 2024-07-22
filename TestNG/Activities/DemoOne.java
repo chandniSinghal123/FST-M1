@@ -1,4 +1,5 @@
 package suiteExample;
+
 import org.testng.annotations.Test;
 
 public class DemoOne {
